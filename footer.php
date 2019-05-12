@@ -33,7 +33,7 @@
         <div id="footer-navbar" class="container">
             
             <div class="col-sm-12 col-md-3 footer-nav">
-                <p><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo_.png" alt="Jinook Jung"></a></p>
+                <p><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo.png" alt="Jinook Jung"></a></p>
             </div>
             
             <div class="col-sm-12 col-md-6 footer-nav">
@@ -47,7 +47,7 @@
             </div>
             
             <div class="col-sm-12 col-md-3 footer-nav">
-                <p id="copy-right" class="pull-right"><?php bloginfo('name'); ?> &copy; <?php echo date('Y'); ?> <?php the_author_link(); ?></p>
+                <p id="copy-right" class="pull-right"><?php #bloginfo('name'); ?> &copy; <?php echo date('Y'); ?> <?php the_author_link(); ?></p>
             </div>
             
         </div>

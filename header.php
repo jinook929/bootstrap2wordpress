@@ -23,7 +23,8 @@
 
 <!-- Optional theme -->
 <!-- BOOTSTRAP -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/bootstrap.css">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
 <!-- SEMANTIC UI -->
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
 <script
@@ -46,6 +47,8 @@
     	<script src="https://fastcdn.org/Respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 	
+	<link rel='shortcut icon' type='image/x-icon' href='<?php bloginfo('stylesheet_directory'); ?>/assets/img/favicon.ico' />
+	
 </head>
 
 <body <?php body_class(); ?>>
@@ -58,7 +61,7 @@
         <!-- NAVBAR -->
         <div class="navbar-wrapper">
 
-            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation"> <!--navbar-inverse-->
 
                 <div class="container">
                     <div class="navbar-header">
@@ -69,7 +72,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo_.png"
+                        <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.png"
                                 alt="Jinook Jung"></a>
                     </div><!-- navbar-header -->
 

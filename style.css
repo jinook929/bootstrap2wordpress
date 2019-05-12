@@ -548,7 +548,7 @@ blockquote:before {
     background: linear-gradient(
           rgba(0, 0, 0, 0.2), 
           rgba(0, 0, 0, 0.2)
-        ), url('./assets/img/laptop-bg.jpg') 50% 0 repeat fixed;
+        ), url('https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1394&q=80') 50% 0 repeat fixed;
 	min-height: 500px;
     padding: 40px 0;
     color: white;
@@ -557,6 +557,10 @@ blockquote:before {
 }
 #logo-badge {
     padding-top: 3%;
+}
+
+#hero h1 {
+    margin-top: 40px;
 }
 
 #hero article {
@@ -642,6 +646,11 @@ blockquote:before {
     display: block;
 }
 
+#hero .hero-text a {
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    margin-top: 40px;
+}
 
 /* LAYOUT */
 
@@ -809,7 +818,7 @@ section h3 {
 }
 
 footer {
-    background: #3e4249;
+    background: #19305a; /* #3e4249; */
     color: white;
     padding: 20px 0 10px;
     font-size: 12px;
